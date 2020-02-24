@@ -10,5 +10,8 @@
     },
     {
         "value": "vue"
+    },
+    {
+        "value": "vue-router"
     }
 ]
