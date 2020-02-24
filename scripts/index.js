@@ -4,7 +4,7 @@ function initApplication(el) {
     var dataSource = new Bloodhound({
         datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
         queryTokenizer: Bloodhound.tokenizers.whitespace,
-        prefetch: '../data/datax.json',
+        prefetch: `https://github.com/tanteichang/testPage/blob/master/data/datax.json?date=${new Date().getTime()}`,
     });
     var jqueryEl = $(el)
     jqueryEl.on('typeahead:select', function (unused, obj) {
