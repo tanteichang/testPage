@@ -13,5 +13,8 @@
     },
     {
         "value": "vue-router"
+    },
+    {
+        "value": "vue3"
     }
 ]
