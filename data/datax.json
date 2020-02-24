@@ -16,5 +16,8 @@
     },
     {
         "value": "vue3"
+    },
+    {
+        "value": "react-navigation"
     }
 ]
